@@ -1,0 +1,32 @@
+[{
+  "name": "Trial Product",
+  "price": "909",
+  "discount_percentage": 10,
+  "image": "http://placehold.it/940x300/999/CCC",
+  "detail": null,
+  "ratings": [{
+    "rating": 3,
+    "rated_by": "User123"
+  }, {
+    "rating": 4,
+    "rated_by": "User1233"
+  }
+  ],
+  "averageRating": 3.5
+}, {
+  "name": "Trial Product 2",
+  "price": "850",
+  "discount_percentage": 5,
+  "image": "http://placehold.it/300x300/999/CCC",
+  "detail": "Lorem ipsum dolor sit amet",
+  "ratings": [{
+    "rating": 5,
+    "rated_by": "User123"
+  }, {
+    "rating": 4,
+    "rated_by": "User1233"
+  }
+  ],
+  "averageRating": 4.5
+}
+]

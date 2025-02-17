@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "4c8054ee-cdbd-4cf5-adb8-257cd7518b5c",
+		"name": "TestRetoPablo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32737948",
+		"_collection_link": "https://csgicom.postman.co/workspace/XPQA---Cofiroute-and-ViaPlus~56debcb3-0706-48a5-bacf-7c284aa9a3a6/collection/32737948-4c8054ee-cdbd-4cf5-adb8-257cd7518b5c?action=share&source=collection_link&creator=32737948"
+	},
+	"item": [
+		{
+			"name": "LocalSaludo",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/saludo",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"saludo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LocaPromedio",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rating/compute/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rating",
+						"compute",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FiltroPorcentaje",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/filter/discount/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"filter",
+						"discount",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Productos",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/sort/price",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sort",
+						"price"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rango",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/filter/price/100/900",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"filter",
+						"price",
+						"100",
+						"900"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
